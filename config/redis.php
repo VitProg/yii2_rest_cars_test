@@ -5,7 +5,7 @@ return file_exists(__DIR__ . '/redis.local.php') ? require __DIR__ . '/redis.loc
     'class' => 'yii\redis\Connection',
     'hostname' => 'localhost',
     'port' => 6379,
-    'database' => 2,
+    'database' => 1,
 //    'username' => 'root',
 //    'password' => '',
 ];
